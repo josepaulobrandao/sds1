@@ -1,13 +1,12 @@
 
 import React from 'react';
 import './App.css';
-import './components/Header';
 import Routes from './Routes';
 
 
 function App() {
   return (
-<Routes />
+   <Routes />
   );
 }
 

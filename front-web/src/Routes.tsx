@@ -8,14 +8,13 @@ const Routes = () => (
     <BrowserRouter>
         <Header />
         <Switch>
-            <Route path="/" exact>
-                <Home />
-            </Route >
-        </Switch>
-            <Route path="/records">
-                <Records />
-                <Home />
-            </Route >
+         <Route path="/" exact>
+         <Home />
+         </Route>
+         <Route path="/records">
+         <Records />
+         </Route >
+         </Switch>
     </BrowserRouter>
 
 );
